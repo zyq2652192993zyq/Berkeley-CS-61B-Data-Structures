@@ -10,51 +10,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/StringCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/main/StringCodeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/CharGrid.java">
+        <entry file="file://$PROJECT_DIR$/src/main/Taboo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="693">
+              <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/main/CharGridTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/main/TabooTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1075">
-              <caret line="43" column="3" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
+            <state relative-caret-position="450">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1131#1139#0" expanded="true" />
+                <element signature="e#1192#1200#0" expanded="true" />
+                <element signature="e#1321#1329#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,10 +57,15 @@
         <option value="$PROJECT_DIR$/src/main/StringCode.java" />
         <option value="$PROJECT_DIR$/HW1.iml" />
         <option value="$PROJECT_DIR$/src/test/StringCodeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/CharGrid.java" />
         <option value="$PROJECT_DIR$/src/test/main/StringCodeTest.java" />
         <option value="$PROJECT_DIR$/src/test/main/CharGridTest.java" />
-        <option value="$PROJECT_DIR$/src/main/CharGrid.java" />
         <option value="$PROJECT_DIR$/src/main/TetrisGrid.java" />
+        <option value="$PROJECT_DIR$/src/test/main/TetrisGridTest.java" />
+        <option value="$PROJECT_DIR$/src/main/Appearances.java" />
+        <option value="$PROJECT_DIR$/src/test/main/AppearancesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/Taboo.java" />
+        <option value="$PROJECT_DIR$/src/test/main/TabooTest.java" />
       </list>
     </option>
   </component>
@@ -98,6 +81,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,8 +115,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,8 +141,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CharGridTest.testCountPlus">
-    <configuration name="CharGridTest.testCharArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TabooTest.testNoFollow">
+    <configuration name="AppearancesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW1" />
       <extension name="coverage">
         <pattern>
@@ -168,65 +151,83 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.main" />
-      <option name="MAIN_CLASS_NAME" value="test.main.CharGridTest" />
-      <option name="METHOD_NAME" value="testCharArea" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CharGridTest.testCountPlus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HW1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.main" />
-      <option name="MAIN_CLASS_NAME" value="test.main.CharGridTest" />
-      <option name="METHOD_NAME" value="testCountPlus" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringCodeTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HW1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.main" />
-      <option name="MAIN_CLASS_NAME" value="test.main.StringCodeTest" />
+      <option name="MAIN_CLASS_NAME" value="test.main.AppearancesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppearancesTest.testSameCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="test.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.StringCodeTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="test.main" />
+      <option name="MAIN_CLASS_NAME" value="test.main.AppearancesTest" />
+      <option name="METHOD_NAME" value="testSameCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TabooTest.testNoFollow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.main" />
+      <option name="MAIN_CLASS_NAME" value="test.main.TabooTest" />
+      <option name="METHOD_NAME" value="testNoFollow" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TabooTest.testReduce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.main" />
+      <option name="MAIN_CLASS_NAME" value="test.main.TabooTest" />
+      <option name="METHOD_NAME" value="testReduce" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TetrisGridTest.testClearRows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.main" />
+      <option name="MAIN_CLASS_NAME" value="test.main.TetrisGridTest" />
+      <option name="METHOD_NAME" value="testClearRows" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CharGridTest.testCountPlus" />
-        <item itemvalue="JUnit.CharGridTest.testCharArea" />
-        <item itemvalue="JUnit.StringCodeTest (1)" />
-        <item itemvalue="JUnit.StringCodeTest" />
+        <item itemvalue="JUnit.TabooTest.testNoFollow" />
+        <item itemvalue="JUnit.TabooTest.testReduce" />
+        <item itemvalue="JUnit.AppearancesTest.testSameCount" />
+        <item itemvalue="JUnit.AppearancesTest" />
+        <item itemvalue="JUnit.TetrisGridTest.testClearRows" />
       </list>
     </recent_temporary>
   </component>
@@ -241,37 +242,50 @@
       <option name="presentableId" value="Default" />
       <updated>1613626448531</updated>
       <workItem from="1613626451291" duration="8978000" />
+      <workItem from="1613873046313" duration="5032000" />
+      <workItem from="1614052011641" duration="2401000" />
+      <workItem from="1614171788377" duration="2608000" />
+      <workItem from="1614322711427" duration="8772000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringCodeTest - 2021.02.18 at 14h 21m 40s.xml">
-      <configuration name="StringCodeTest" configurationId="JUnit" />
+    <history-entry file="TabooTest_testReduce - 2021.02.26 at 16h 31m 45s.xml">
+      <configuration name="TabooTest.testReduce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCodeTest_(1) - 2021.02.18 at 14h 53m 22s.xml">
-      <configuration name="StringCodeTest (1)" configurationId="JUnit" />
+    <history-entry file="TabooTest_testReduce - 2021.02.26 at 16h 35m 53s.xml">
+      <configuration name="TabooTest.testReduce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CharGridTest_testCharArea - 2021.02.18 at 14h 56m 11s.xml">
-      <configuration name="CharGridTest.testCharArea" configurationId="JUnit" />
+    <history-entry file="TabooTest_testReduce - 2021.02.26 at 20h 12m 43s.xml">
+      <configuration name="TabooTest.testReduce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CharGridTest_testCharArea - 2021.02.18 at 14h 56m 50s.xml">
-      <configuration name="CharGridTest.testCharArea" configurationId="JUnit" />
+    <history-entry file="TabooTest_testReduce - 2021.02.26 at 20h 13m 31s.xml">
+      <configuration name="TabooTest.testReduce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CharGridTest_testCharArea - 2021.02.18 at 15h 01m 09s.xml">
-      <configuration name="CharGridTest.testCharArea" configurationId="JUnit" />
+    <history-entry file="TabooTest_testReduce - 2021.02.26 at 20h 13m 55s.xml">
+      <configuration name="TabooTest.testReduce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CharGridTest_testCountPlus - 2021.02.18 at 16h 02m 22s.xml">
-      <configuration name="CharGridTest.testCountPlus" configurationId="JUnit" />
+    <history-entry file="TabooTest_testReduce - 2021.02.26 at 20h 15m 16s.xml">
+      <configuration name="TabooTest.testReduce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CharGridTest_testCountPlus - 2021.02.18 at 16h 02m 51s.xml">
-      <configuration name="CharGridTest.testCountPlus" configurationId="JUnit" />
+    <history-entry file="TabooTest_testReduce - 2021.02.26 at 20h 16m 19s.xml">
+      <configuration name="TabooTest.testReduce" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TabooTest_testReduce - 2021.02.26 at 20h 17m 05s.xml">
+      <configuration name="TabooTest.testReduce" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TabooTest_testReduce - 2021.02.26 at 20h 18m 11s.xml">
+      <configuration name="TabooTest.testReduce" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TabooTest_testNoFollow - 2021.02.26 at 20h 18m 57s.xml">
+      <configuration name="TabooTest.testNoFollow" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8978000" />
+    <option name="totallyTimeSpent" value="27791000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1472" height="878" extended-state="6" />
+    <frame x="-8" y="-8" width="1858" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -279,9 +293,8 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19546743" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20355952" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32977304" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
@@ -290,11 +303,12 @@
       <window_info anchor="bottom" id="Analysis" order="5" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32977304" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.32977304" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32919255" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32977304" />
       <window_info anchor="right" id="Codota" order="0" />
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -311,16 +325,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/StringCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="64" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="64" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StringCode.java" />
     <entry file="file://$PROJECT_DIR$/HW1.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -328,13 +333,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/StringCodeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/StringCodeTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/StringCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -347,38 +346,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/main/StringCodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/main/CharGridTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="43" column="3" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/TetrisGrid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        <state relative-caret-position="225">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/main/CharGridTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/CharGrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="66" column="39" lean-forward="true" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/CharGrid.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Appearances.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        <state relative-caret-position="250">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/main/AppearancesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/main/TetrisGridTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/programD/Java_JDK/lib/src.zip!/java.base/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="166" column="14" selection-start-line="166" selection-start-column="14" selection-end-line="166" selection-end-column="14" />
+          <folding>
+            <element signature="e#5455#5456#0" expanded="true" />
+            <element signature="e#5512#5513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/main/TabooTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1131#1139#0" expanded="true" />
+            <element signature="e#1192#1200#0" expanded="true" />
+            <element signature="e#1321#1329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Taboo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
         </state>
       </provider>
     </entry>

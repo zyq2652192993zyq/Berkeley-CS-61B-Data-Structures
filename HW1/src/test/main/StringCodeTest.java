@@ -2,8 +2,6 @@ package test.main;
 
 import main.StringCode;
 import org.junit.Test;
-import org.junit.Before;
-import org.junit.After;
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -15,14 +13,6 @@ import static org.junit.Assert.assertEquals;
  */
 public class StringCodeTest {
     private static StringCode obj = new StringCode();
-
-    @Before
-    public void before() throws Exception {
-    }
-
-    @After
-    public void after() throws Exception {
-    }
 
     /**
      *

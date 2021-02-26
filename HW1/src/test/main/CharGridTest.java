@@ -1,9 +1,7 @@
 package test.main;
 
 import main.CharGrid;
-import org.junit.Test; 
-import org.junit.Before; 
-import org.junit.After;
+import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 /** 
@@ -15,14 +13,6 @@ import static org.junit.Assert.assertEquals;
 */ 
 public class CharGridTest { 
     private static CharGrid obj = new CharGrid();
-
-@Before
-public void before() throws Exception { 
-} 
-
-@After
-public void after() throws Exception { 
-} 
 
 /** 
 * 
