@@ -2,11 +2,7 @@ package test.main;
 
 import main.Taboo;
 import org.junit.Test;
-
-import java.lang.annotation.Target;
-import java.lang.reflect.Array;
 import java.util.*;
-
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
