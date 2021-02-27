@@ -4,6 +4,7 @@
 
 * Course website: http://web.stanford.edu/class/archive/cs/cs108/cs108.1092/
 * Textbook: No official textbook
+* Programming Language: Java
 
 ## Homework
 
