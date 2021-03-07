@@ -1,5 +1,9 @@
 > # Stanford-CS-108-Object-Oriented-System-Design
 
+## Why learn this course?
+
+Stanford CS108 teaches large-scale Object Oriented Programming (OOP) using Java. The course concentrates on OOP design, both in the internal structure of its projects and in the large pre-built OOP libraries they are built on. The course features individual homework projects exercising OOP techniques and culminating in a large final project.
+
 ## Course Information
 
 * Course website: http://web.stanford.edu/class/archive/cs/cs108/cs108.1092/
