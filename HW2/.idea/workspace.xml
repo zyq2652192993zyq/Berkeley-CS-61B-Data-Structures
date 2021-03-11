@@ -26,8 +26,57 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Piece.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-282">
-              <caret line="227" column="14" lean-forward="true" selection-start-line="227" selection-start-column="14" selection-end-line="227" selection-end-column="14" />
+            <state relative-caret-position="425">
+              <caret line="240" column="56" lean-forward="true" selection-start-line="240" selection-start-column="56" selection-end-line="240" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Board.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="88" column="81" selection-start-line="88" selection-start-column="68" selection-end-line="88" selection-end-column="81" />
+              <folding>
+                <element signature="e#1087#1088#0" expanded="true" />
+                <element signature="e#1115#1116#0" expanded="true" />
+                <element signature="e#1210#1211#0" expanded="true" />
+                <element signature="e#1239#1240#0" expanded="true" />
+                <element signature="e#1381#1382#0" expanded="true" />
+                <element signature="e#1413#1414#0" expanded="true" />
+                <element signature="e#2689#2690#0" expanded="true" />
+                <element signature="e#2769#2770#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/main/BoardTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/JTetris.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="756" column="14" selection-start-line="756" selection-start-column="14" selection-end-line="756" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#16116#16117#0" expanded="true" />
+                <element signature="e#16253#16254#0" expanded="true" />
+                <element signature="e#16395#16396#0" expanded="true" />
+                <element signature="e#16544#16545#0" expanded="true" />
+                <element signature="e#19433#19434#0" expanded="true" />
+                <element signature="e#19476#19477#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/main/PieceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            <state relative-caret-position="250">
+              <caret line="125" column="51" selection-start-line="125" selection-start-column="51" selection-end-line="125" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,6 +109,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/TPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/ControlFrame.java" />
+        <option value="$PROJECT_DIR$/src/test/main/BoardTest.java" />
+        <option value="$PROJECT_DIR$/src/main/Board.java" />
+        <option value="$PROJECT_DIR$/src/main/JTetris.java" />
         <option value="$PROJECT_DIR$/src/test/main/PieceTest.java" />
         <option value="$PROJECT_DIR$/src/main/Piece.java" />
       </list>
@@ -77,6 +130,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -91,6 +145,12 @@
             </path>
             <path>
               <item name="HW2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HW2" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -98,7 +158,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -108,6 +167,7 @@
     <property name="last_opened_file_path" value="F:/junit-4.13.2.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -124,8 +184,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PieceTest">
-    <configuration name="PieceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.JTetris">
+    <configuration name="JTetris" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.JTetris" />
+      <module name="HW2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW2" />
       <extension name="coverage">
         <pattern>
@@ -134,13 +207,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.main" />
-      <option name="MAIN_CLASS_NAME" value="test.main.PieceTest" />
+      <option name="MAIN_CLASS_NAME" value="test.main.BoardTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PieceTest.testComputeNextRotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoardTest.testUndo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW2" />
       <extension name="coverage">
         <pattern>
@@ -149,14 +222,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.main" />
-      <option name="MAIN_CLASS_NAME" value="test.main.PieceTest" />
-      <option name="METHOD_NAME" value="testComputeNextRotation" />
+      <option name="MAIN_CLASS_NAME" value="test.main.BoardTest" />
+      <option name="METHOD_NAME" value="testUndo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PieceTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoardTest.testUndo2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW2" />
       <extension name="coverage">
         <pattern>
@@ -165,8 +238,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.main" />
-      <option name="MAIN_CLASS_NAME" value="test.main.PieceTest" />
-      <option name="METHOD_NAME" value="testEquals" />
+      <option name="MAIN_CLASS_NAME" value="test.main.BoardTest" />
+      <option name="METHOD_NAME" value="testUndo2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -188,29 +261,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PieceTest.testGetSkirt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HW2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.main" />
-      <option name="MAIN_CLASS_NAME" value="test.main.PieceTest" />
-      <option name="METHOD_NAME" value="testGetSkirt" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PieceTest" />
+        <item itemvalue="Application.JTetris" />
         <item itemvalue="JUnit.PieceTest.testFastRotation" />
-        <item itemvalue="JUnit.PieceTest.testEquals" />
-        <item itemvalue="JUnit.PieceTest.testComputeNextRotation" />
-        <item itemvalue="JUnit.PieceTest.testGetSkirt" />
+        <item itemvalue="JUnit.BoardTest" />
+        <item itemvalue="JUnit.BoardTest.testUndo2" />
+        <item itemvalue="JUnit.BoardTest.testUndo" />
       </list>
     </recent_temporary>
   </component>
@@ -225,50 +282,53 @@
       <option name="presentableId" value="Default" />
       <updated>1614653407346</updated>
       <workItem from="1614653413264" duration="12283000" />
-      <workItem from="1615100634351" duration="1155000" />
+      <workItem from="1615100634351" duration="3207000" />
+      <workItem from="1615188386734" duration="2078000" />
+      <workItem from="1615268522761" duration="4451000" />
+      <workItem from="1615341490923" duration="13623000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PieceTest_testComputeNextRotation - 2021.03.02 at 17h 34m 27s.xml">
-      <configuration name="PieceTest.testComputeNextRotation" configurationId="JUnit" />
+    <history-entry file="BoardTest_testClearRows - 2021.03.10 at 13h 23m 07s.xml">
+      <configuration name="BoardTest.testClearRows" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PieceTest - 2021.03.02 at 17h 34m 34s.xml">
-      <configuration name="PieceTest" configurationId="JUnit" />
+    <history-entry file="BoardTest_testClearRows - 2021.03.10 at 13h 43m 14s.xml">
+      <configuration name="BoardTest.testClearRows" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PieceTest_testFastRotation - 2021.03.02 at 17h 35m 36s.xml">
+    <history-entry file="BoardTest_testClearRows - 2021.03.10 at 13h 51m 13s.xml">
+      <configuration name="BoardTest.testClearRows" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardTest_testClearRows - 2021.03.10 at 14h 03m 50s.xml">
+      <configuration name="BoardTest.testClearRows" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardTest_testClearRows - 2021.03.10 at 14h 37m 16s.xml">
+      <configuration name="BoardTest.testClearRows" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardTest_testUndo - 2021.03.10 at 15h 35m 15s.xml">
+      <configuration name="BoardTest.testUndo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardTest_testUndo2 - 2021.03.10 at 15h 35m 19s.xml">
+      <configuration name="BoardTest.testUndo2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardTest_testUndo2 - 2021.03.10 at 15h 39m 36s.xml">
+      <configuration name="BoardTest.testUndo2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardTest - 2021.03.10 at 15h 39m 50s.xml">
+      <configuration name="BoardTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PieceTest_testFastRotation - 2021.03.10 at 15h 56m 16s.xml">
       <configuration name="PieceTest.testFastRotation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PieceTest_testFastRotation - 2021.03.02 at 17h 39m 39s.xml">
-      <configuration name="PieceTest.testFastRotation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PieceTest_testEquals - 2021.03.02 at 17h 44m 33s.xml">
-      <configuration name="PieceTest.testEquals" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PieceTest_testEquals - 2021.03.02 at 17h 45m 03s.xml">
-      <configuration name="PieceTest.testEquals" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PieceTest_testFastRotation - 2021.03.02 at 17h 57m 27s.xml">
-      <configuration name="PieceTest.testFastRotation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PieceTest_testFastRotation - 2021.03.02 at 17h 59m 04s.xml">
-      <configuration name="PieceTest.testFastRotation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PieceTest - 2021.03.02 at 17h 59m 11s.xml">
-      <configuration name="PieceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PieceTest - 2021.03.07 at 15h 23m 07s.xml">
-      <configuration name="PieceTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13438000" />
+    <option name="totallyTimeSpent" value="35642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1859" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25236243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23068371" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -277,8 +337,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32919255" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39958593" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -305,6 +365,16 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/ControlFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/TPoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1900">
@@ -312,20 +382,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/main/PieceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/main/BoardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        <state relative-caret-position="350">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/main/PieceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="125" column="51" selection-start-line="125" selection-start-column="51" selection-end-line="125" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JTetris.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="756" column="14" selection-start-line="756" selection-start-column="14" selection-end-line="756" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#16116#16117#0" expanded="true" />
+            <element signature="e#16253#16254#0" expanded="true" />
+            <element signature="e#16395#16396#0" expanded="true" />
+            <element signature="e#16544#16545#0" expanded="true" />
+            <element signature="e#19433#19434#0" expanded="true" />
+            <element signature="e#19476#19477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="88" column="81" selection-start-line="88" selection-start-column="68" selection-end-line="88" selection-end-column="81" />
+          <folding>
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1381#1382#0" expanded="true" />
+            <element signature="e#1413#1414#0" expanded="true" />
+            <element signature="e#2689#2690#0" expanded="true" />
+            <element signature="e#2769#2770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Piece.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-282">
-          <caret line="227" column="14" lean-forward="true" selection-start-line="227" selection-start-column="14" selection-end-line="227" selection-end-column="14" />
+        <state relative-caret-position="425">
+          <caret line="240" column="56" lean-forward="true" selection-start-line="240" selection-start-column="56" selection-end-line="240" selection-end-column="56" />
         </state>
       </provider>
     </entry>

@@ -223,6 +223,7 @@ public class Piece {
         Piece nextPiece = cur.computeNextRotation();
         cur.next = nextPiece;
         if (nextPiece.equals(root)) {
+            cur.next = root;
             return;
         }
         else {
