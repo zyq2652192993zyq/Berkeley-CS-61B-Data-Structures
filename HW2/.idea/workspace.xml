@@ -23,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Piece.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="240" column="56" lean-forward="true" selection-start-line="240" selection-start-column="56" selection-end-line="240" selection-end-column="56" />
+            <state relative-caret-position="5700">
+              <caret line="240" column="56" selection-start-line="240" selection-start-column="56" selection-end-line="240" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -35,18 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="88" column="81" selection-start-line="88" selection-start-column="68" selection-end-line="88" selection-end-column="81" />
-              <folding>
-                <element signature="e#1087#1088#0" expanded="true" />
-                <element signature="e#1115#1116#0" expanded="true" />
-                <element signature="e#1210#1211#0" expanded="true" />
-                <element signature="e#1239#1240#0" expanded="true" />
-                <element signature="e#1381#1382#0" expanded="true" />
-                <element signature="e#1413#1414#0" expanded="true" />
-                <element signature="e#2689#2690#0" expanded="true" />
-                <element signature="e#2769#2770#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="600">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -54,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/main/BoardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state relative-caret-position="275">
+              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,19 +53,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/JTetris.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
+            <state relative-caret-position="868">
               <caret line="756" column="14" selection-start-line="756" selection-start-column="14" selection-end-line="756" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#16048#16049#0" expanded="true" />
                 <element signature="e#16116#16117#0" expanded="true" />
+                <element signature="e#16183#16184#0" expanded="true" />
                 <element signature="e#16253#16254#0" expanded="true" />
+                <element signature="e#16345#16346#0" expanded="true" />
                 <element signature="e#16395#16396#0" expanded="true" />
+                <element signature="e#16481#16482#0" expanded="true" />
                 <element signature="e#16544#16545#0" expanded="true" />
-                <element signature="e#19433#19434#0" expanded="true" />
-                <element signature="e#19476#19477#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/main/PieceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="3025">
               <caret line="125" column="51" selection-start-line="125" selection-start-column="51" selection-end-line="125" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -111,10 +103,11 @@
         <option value="$PROJECT_DIR$/src/main/TPoint.java" />
         <option value="$PROJECT_DIR$/src/main/ControlFrame.java" />
         <option value="$PROJECT_DIR$/src/test/main/BoardTest.java" />
-        <option value="$PROJECT_DIR$/src/main/Board.java" />
         <option value="$PROJECT_DIR$/src/main/JTetris.java" />
         <option value="$PROJECT_DIR$/src/test/main/PieceTest.java" />
         <option value="$PROJECT_DIR$/src/main/Piece.java" />
+        <option value="$PROJECT_DIR$/src/main/Board.java" />
+        <option value="$PROJECT_DIR$/src/main/Layouts.java" />
       </list>
     </option>
   </component>
@@ -131,6 +124,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,7 +151,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,9 +177,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JTetris">
+  <component name="RunManager" selected="Application.Layouts">
     <configuration name="JTetris" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.JTetris" />
+      <module name="HW2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Layouts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Layouts" />
       <module name="HW2" />
       <extension name="coverage">
         <pattern>
@@ -209,22 +215,6 @@
       <option name="PACKAGE_NAME" value="test.main" />
       <option name="MAIN_CLASS_NAME" value="test.main.BoardTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoardTest.testUndo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HW2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.main" />
-      <option name="MAIN_CLASS_NAME" value="test.main.BoardTest" />
-      <option name="METHOD_NAME" value="testUndo" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -263,11 +253,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Layouts" />
         <item itemvalue="Application.JTetris" />
         <item itemvalue="JUnit.PieceTest.testFastRotation" />
         <item itemvalue="JUnit.BoardTest" />
         <item itemvalue="JUnit.BoardTest.testUndo2" />
-        <item itemvalue="JUnit.BoardTest.testUndo" />
       </list>
     </recent_temporary>
   </component>
@@ -286,6 +276,9 @@
       <workItem from="1615188386734" duration="2078000" />
       <workItem from="1615268522761" duration="4451000" />
       <workItem from="1615341490923" duration="13623000" />
+      <workItem from="1615634821360" duration="682000" />
+      <workItem from="1616400161569" duration="1384000" />
+      <workItem from="1616502077833" duration="44000" />
     </task>
     <servers />
   </component>
@@ -322,13 +315,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35642000" />
+    <option name="totallyTimeSpent" value="37752000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1859" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1864" height="1096" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23068371" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22283813" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -337,7 +329,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39958593" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -365,16 +357,8 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/ControlFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ControlFrame.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/Layouts.java" />
     <entry file="file://$PROJECT_DIR$/src/main/TPoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1900">
@@ -382,10 +366,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5700">
+          <caret line="240" column="56" selection-start-line="240" selection-start-column="56" selection-end-line="240" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/main/BoardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        <state relative-caret-position="275">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -394,7 +392,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/main/PieceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="3025">
           <caret line="125" column="51" selection-start-line="125" selection-start-column="51" selection-end-line="125" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -404,41 +402,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/JTetris.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
+        <state relative-caret-position="868">
           <caret line="756" column="14" selection-start-line="756" selection-start-column="14" selection-end-line="756" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#16048#16049#0" expanded="true" />
             <element signature="e#16116#16117#0" expanded="true" />
+            <element signature="e#16183#16184#0" expanded="true" />
             <element signature="e#16253#16254#0" expanded="true" />
+            <element signature="e#16345#16346#0" expanded="true" />
             <element signature="e#16395#16396#0" expanded="true" />
+            <element signature="e#16481#16482#0" expanded="true" />
             <element signature="e#16544#16545#0" expanded="true" />
-            <element signature="e#19433#19434#0" expanded="true" />
-            <element signature="e#19476#19477#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="88" column="81" selection-start-line="88" selection-start-column="68" selection-end-line="88" selection-end-column="81" />
-          <folding>
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1115#1116#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#1239#1240#0" expanded="true" />
-            <element signature="e#1381#1382#0" expanded="true" />
-            <element signature="e#1413#1414#0" expanded="true" />
-            <element signature="e#2689#2690#0" expanded="true" />
-            <element signature="e#2769#2770#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Piece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="240" column="56" lean-forward="true" selection-start-line="240" selection-start-column="56" selection-end-line="240" selection-end-column="56" />
         </state>
       </provider>
     </entry>

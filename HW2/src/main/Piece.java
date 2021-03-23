@@ -43,7 +43,7 @@ public class Piece {
         for (TPoint point : body) {
             minX = Math.min(minX, point.x);
             maxX = Math.max(maxX, point.x);
-            minY= Math.min(minY, point.y);
+            minY = Math.min(minY, point.y);
             maxY = Math.max(maxY, point.y);
         }
         width = maxX - minX + 1;

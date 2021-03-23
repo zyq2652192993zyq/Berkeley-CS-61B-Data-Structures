@@ -22,10 +22,11 @@ public class Board {
     private int[] widths;
     private int[] heights;
     private int maxHeight;
+    private boolean[][] backupGrid;
     private int[] backupWidths;
     private int[] backupHeights;
     private int backupMaxHeight;
-    private boolean[][] backupGrid;
+
 
     /**
      Creates an empty board of the given width and height
