@@ -45,12 +45,10 @@ public class DBRecord {
     public boolean bothContains(DBBinding bind_1, DBBinding bind_2) {
         int cnt = 0;
         for (DBBinding bind : records) {
-            if (bind.getKey().toLowerCase().equals(bind_1.getKey())
-                    && bind.getValue().toLowerCase().contains(bind_1.getValue().toLowerCase())) {
+            if (bind.equals(bind_1)) {
                 ++cnt;
             }
-            if (bind.getKey().toLowerCase().equals(bind_2.getKey())
-                    && bind.getValue().toLowerCase().contains(bind_2.getValue().toLowerCase())) {
+            if (bind.equals(bind_2)) {
                 ++cnt;
             }
         }
@@ -60,12 +58,10 @@ public class DBRecord {
 
     public boolean eitherContains(DBBinding bind_1, DBBinding bind_2) {
         for (DBBinding bind : records) {
-            if (bind.getKey().toLowerCase().equals(bind_1.getKey())
-                    && bind.getValue().toLowerCase().contains(bind_1.getValue().toLowerCase())) {
+            if (bind.equals(bind_1)) {
                 return true;
             }
-            if (bind.getKey().toLowerCase().equals(bind_2.getKey())
-                    && bind.getValue().toLowerCase().contains(bind_2.getValue().toLowerCase())) {
+            if (bind.equals(bind_2)) {
                 return true;
             }
         }

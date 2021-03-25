@@ -10,12 +10,15 @@ public class DBBinding {
         value = strArray[1].trim();
     }
 
-    public String getKey() {
-        return key;
-    }
+    public String getKey() { return key; }
 
     public String getValue() {
         return value;
+    }
+
+    public boolean equals(DBBinding bind) {
+        return key.toLowerCase().equals(bind.getKey().toLowerCase())
+                && value.toLowerCase().contains(bind.getValue().toLowerCase());
     }
 
     @Override
